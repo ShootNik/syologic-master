@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=SYO
+Comment=SYO P2P Cryptocurrency
+Exec=syologic-qt %u
+Terminal=false
+Type=Application
+Icon=syologic128
+MimeType=x-scheme-handler/syologic;
+Categories=Office;Finance;
+Name[en_US]=syologic-qt.desktop

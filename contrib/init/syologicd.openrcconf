@@ -1,0 +1,26 @@
+# /etc/conf.d/syologicd: config file for /etc/init.d/syologicd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/syologic/syologic.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/syologicd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/syologicd.pid"
+
+# Where to write syologicd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/syologicd"
+
+# User and group to own syologicd process
+#BITCOIND_USER="syologic"
+#BITCOIND_GROUP="syologic"
+
+# Path to syologicd executable
+#BITCOIND_BIN="/usr/bin/syologicd"
+
+# Nice value to run syologicd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
