@@ -1,5 +1,5 @@
 ---
-name: "syologic-linux-2.3"
+name: "syologic-linux-1.0.1"
 enable_cache: true
 suites:
 - "trusty"
@@ -29,13 +29,13 @@ packages:
 - "python"
 reference_datetime: "2015-06-01 00:00:00"
 remotes:
-- "url": "https://github.com/syologic/syologic.git"
-  "dir": "syologic"
+- "url": "https://github.com/SyoLogic/syologic-master.git"
+  "dir": "syologic-master"
 files: []
 script: |
 
   WRAP_DIR=$HOME/wrapped
-  HOSTS="i686-pc-linux-gnu x86_64-linux-gnu arm-linux-gnueabihf aarch64-linux-gnu"
+  HOSTS="i686-pc-linux-gnu x86_64-linux-gnu"
   CONFIGFLAGS="--enable-glibc-back-compat --enable-reduce-exports --disable-bench --disable-gui-tests"
   FAKETIME_HOST_PROGS=""
   FAKETIME_PROGS="date ar ranlib nm"
@@ -114,7 +114,7 @@ script: |
   chmod +x ${WRAP_DIR}/${prog}
   done
 
-  cd syologic
+  cd syologic-master
   BASEPREFIX=`pwd`/depends
   # Build dependencies for each host
   for i in $HOSTS; do

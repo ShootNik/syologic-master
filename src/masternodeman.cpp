@@ -1,5 +1,5 @@
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2017 The PIVX developers 
+// Copyright (c) 2015-2017 The PIVX developers
 // Copyright (c) 2018 The SyoLogic developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -571,8 +571,8 @@ int CMasternodeMan::GetMasternodeRank(const CTxIn& vin, int64_t nBlockHeight, in
     std::vector<pair<int64_t, CTxIn> > vecMasternodeScores;
     int64_t nMasternode_Min_Age = GetSporkValue(SPORK_16_MN_WINNER_MINIMUM_AGE);
     int64_t nMasternode_Age = 0;
- 
- 
+
+
 
     //make sure we know about this block
     uint256 hash = 0;
@@ -900,8 +900,8 @@ void CMasternodeMan::ProcessMessage(CNode* pfrom, std::string& strCommand, CData
         }
 
         if (Params().NetworkID() == CBaseChainParams::MAIN) {
-            if (addr.GetPort() != 68791) return;
-        } else if (addr.GetPort() == 68791)
+            if (addr.GetPort() != 3255) return;
+        } else if (addr.GetPort() == 3255)
             return;
 
         //search existing Masternode list, this is where we update existing Masternodes with new dsee broadcasts

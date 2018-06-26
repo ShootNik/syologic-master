@@ -1,5 +1,5 @@
 ---
-name: "syologic-osx-2.3"
+name: "syologic-osx-1.0.1"
 enable_cache: true
 suites:
 - "trusty"
@@ -28,8 +28,8 @@ packages:
 - "python-setuptools"
 - "fonts-tuffy"
 remotes:
-- "url": "https://github.com/syologic/syologic.git"
-  "dir": "syologic"
+- "url": "https://github.com/SyoLogic/syologic-master.git"
+  "dir": "syologic-master"
 files:
 - "MacOSX10.11.sdk.tar.gz"
 script: |
@@ -83,7 +83,7 @@ script: |
   create_per-host_faketime_wrappers "2000-01-01 12:00:00"
   export PATH=${WRAP_DIR}:${PATH}
 
-  cd syologic
+  cd syologic-master
   BASEPREFIX=`pwd`/depends
 
   mkdir -p ${BASEPREFIX}/SDKs

@@ -7,7 +7,7 @@ architectures:
 packages:
 - "faketime"
 remotes:
-- "url": "https://github.com/BLAZARIUM/SYO.SIGS.git"
+- "url": "https://github.com/SyoLogic/syologic-master.git"
   "dir": "signature"
 files:
 - "syologic-osx-unsigned.tar.gz"

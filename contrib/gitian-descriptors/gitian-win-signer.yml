@@ -8,7 +8,7 @@ packages:
 - "libssl-dev"
 - "autoconf"
 remotes:
-- "url": "https://github.com/BLAZARIUM/SYO.SIGS.git"
+- "url": "https://github.com/SyoLogic/syologic-master.git"
   "dir": "signature"
 files:
 - "osslsigncode-1.7.1.tar.gz"

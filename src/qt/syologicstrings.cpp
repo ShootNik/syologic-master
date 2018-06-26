@@ -205,10 +205,10 @@ static const char UNUSED* syologic_strings[] = {
     QT_TRANSLATE_NOOP("syologic-core", ""
                                    "You must specify a masternodeprivkey in the configuration. Please see "
                                    "documentation for help."),
-    QT_TRANSLATE_NOOP("syologic-core", "(68791 could be used only on mainnet)"),
+    QT_TRANSLATE_NOOP("syologic-core", "(3255 could be used only on mainnet)"),
     QT_TRANSLATE_NOOP("syologic-core", "(default: %s)"),
     QT_TRANSLATE_NOOP("syologic-core", "(default: 1)"),
-    QT_TRANSLATE_NOOP("syologic-core", "(must be 68791 for mainnet)"),
+    QT_TRANSLATE_NOOP("syologic-core", "(must be 3255 for mainnet)"),
     QT_TRANSLATE_NOOP("syologic-core", "<category> can be:\n"),
     QT_TRANSLATE_NOOP("syologic-core", "Accept command line and JSON-RPC commands"),
     QT_TRANSLATE_NOOP("syologic-core", "Accept connections from outside (default: 1 if no -proxy or -connect)"),

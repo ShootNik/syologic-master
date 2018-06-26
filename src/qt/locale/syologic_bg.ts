@@ -3721,7 +3721,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s "SYO Alert" admin@foo.com
 </source>
-        <translation>За използване на syologicd, или the -server опция към syologic-qt, трябва да зададете rpcpassword в конфигурационния файл: %s Препоръчително е да използвате следната произволна парола: rpcuser=syologicrpc rpcpassword=%s (не е нужно да запомняте тази парола) Потребителя и паролата НЕ ТРЯБВА да са еднакви. Ако файла не съществува , създайте го с права за само за четене. Препоръчително е да създадете сигнал за уведомяване за да бъдете осведомени при проблем; Пример: alertnotify=echo %%s | mail -s "SYO Alert" admin@foo.com 
+        <translation>За използване на syologicd, или the -server опция към syologic-qt, трябва да зададете rpcpassword в конфигурационния файл: %s Препоръчително е да използвате следната произволна парола: rpcuser=syologicrpc rpcpassword=%s (не е нужно да запомняте тази парола) Потребителя и паролата НЕ ТРЯБВА да са еднакви. Ако файла не съществува , създайте го с права за само за четене. Препоръчително е да създадете сигнал за уведомяване за да бъдете осведомени при проблем; Пример: alertnotify=echo %%s | mail -s "SYO Alert" admin@foo.com
 </translation>
     </message>
     <message>
@@ -3749,8 +3749,8 @@ for example: alertnotify=echo %%s | mail -s "SYO Alert" admin@foo.com
         <translation>Whitelisted не могат да бъдат DoS забранени и техните транзакции ще бъдат винаги предадени, дори ако вече са в  mempool, полезно напр. за gateway</translation>
     </message>
     <message>
-        <source>(68791 could be used only on mainnet)</source>
-        <translation>(68791 може да бъде използван в основната мрежа)</translation>
+        <source>(3255 could be used only on mainnet)</source>
+        <translation>(3255 може да бъде използван в основната мрежа)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -4167,8 +4167,8 @@ for example: alertnotify=echo %%s | mail -s "SYO Alert" admin@foo.com
         <translation>Невалиден частен ключ на Masternode. Моля вижте документацията.</translation>
     </message>
     <message>
-        <source>(must be68791 for mainnet)</source>
-        <translation>(трябва да е68791 за основната мрежа)</translation>
+        <source>(must be3255 for mainnet)</source>
+        <translation>(трябва да е3255 за основната мрежа)</translation>
     </message>
     <message>
         <source>Can't find random Masternode.</source>

@@ -10,7 +10,7 @@ COIN_REPO='https://github.com/syologic/syologic.git'
 COIN_TGZ=''
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='SyoLogic'
-COIN_PORT=68791
+COIN_PORT=3255
 RPC_PORT=15786
 
 NODEIP=$(curl -s4 icanhazip.com)

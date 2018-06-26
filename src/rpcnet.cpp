@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2017 The PIVX developers 
+// Copyright (c) 2015-2017 The PIVX developers
 // Copyright (c) 2018 The SyoLogic developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -171,7 +171,7 @@ Value addnode(const Array& params, bool fHelp)
             "1. \"node\"     (string, required) The node (see getpeerinfo for nodes)\n"
             "2. \"command\"  (string, required) 'add' to add a node to the list, 'remove' to remove a node from the list, 'onetry' to try a connection to the node once\n"
             "\nExamples:\n" +
-            HelpExampleCli("addnode", "\"192.168.0.6:68791\" \"onetry\"") + HelpExampleRpc("addnode", "\"192.168.0.6:68791\", \"onetry\""));
+            HelpExampleCli("addnode", "\"192.168.0.6:3255\" \"onetry\"") + HelpExampleRpc("addnode", "\"192.168.0.6:3255\", \"onetry\""));
 
     string strNode = params[0].get_str();
 
@@ -219,7 +219,7 @@ Value getaddednodeinfo(const Array& params, bool fHelp)
             "    \"connected\" : true|false,          (boolean) If connected\n"
             "    \"addresses\" : [\n"
             "       {\n"
-            "         \"address\" : \"192.168.0.201:68791\",  (string) The syologic server host and port\n"
+            "         \"address\" : \"192.168.0.201:3255\",  (string) The syologic server host and port\n"
             "         \"connected\" : \"outbound\"           (string) connection, inbound or outbound\n"
             "       }\n"
             "       ,...\n"

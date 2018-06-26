@@ -1,5 +1,5 @@
 ---
-name: "syologic-win-2.3"
+name: "syologic-win-1.0.1"
 enable_cache: true
 suites:
 - "trusty"
@@ -22,8 +22,8 @@ packages:
 - "ca-certificates"
 - "python"
 remotes:
-- "url": "https://github.com/syologic/syologic.git"
-  "dir": "syologic"
+- "url": "https://github.com/SyoLogic/syologic-master.git"
+  "dir": "syologic-master"
 files: []
 script: |
   WRAP_DIR=$HOME/wrapped
@@ -101,7 +101,7 @@ script: |
   create_per-host_linker_wrapper "2000-01-01 12:00:00"
   export PATH=${WRAP_DIR}:${PATH}
 
-  cd syologic
+  cd syologic-master
   BASEPREFIX=`pwd`/depends
   # Build dependencies for each host
   for i in $HOSTS; do

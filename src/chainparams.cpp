@@ -97,8 +97,8 @@ public:
         pchMessageStart[1] = 0x44;
         pchMessageStart[2] = 0x15;
         pchMessageStart[3] = 0x54;
-        vAlertPubKey = ParseHex("04266db20be5c53b93678e2e41c9def7af38197280c65e813f682adf2ed501ac186022562dbdf2ce3204d07432660fb61ecad8e78b6b8d39c568fb892db8ecb736");
-        nDefaultPort = 68791;
+        vAlertPubKey = ParseHex("04ca33337c00cf010b63efaa0c2c7ce4053be779e4b9018645bd3025899f4d6943bad816c1c3fbc96792910aae3ebf2b39fe5b133b20eae1a7a3a2372919070089");
+        nDefaultPort = 3255;
         bnProofOfWorkLimit = ~uint256(0) >> 20;
         nSubsidyHalvingInterval = 210000;
         nMaxReorganizationDepth = 100;
@@ -136,13 +136,13 @@ public:
         assert(hashGenesisBlock == uint256("0x000009b804f3b9906e5a1d11bb830c11108e44a7f7e76198a1fc23b8e801b229"));
         assert(genesis.hashMerkleRoot == uint256("0xaf37efd05b65244d7ad077f07089c0c625fc1ec0c0a5e5aa7b04865620982d37"));
 
-
-        //SeedNode 1
-            vSeeds.push_back(CDNSSeedData("185.181.10.112", "185.181.10.112"));
-        //Seednode 2
-            vSeeds.push_back(CDNSSeedData("199.247.20.171", "199.247.20.171"));
-        //vFixedSeeds.clear();
+        // Here should be DNS seeds
         //vSeeds.clear();
+        //vSeeds.push_back(CDNSSeedData("185.181.10.112", "185.181.10.112"));
+        //vSeeds.push_back(CDNSSeedData("199.247.20.171", "199.247.20.171"));
+
+        // Here will be fixed seeds from chainparamsseeds.h
+        //vFixedSeeds.clear();
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 63);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 16);
@@ -166,7 +166,7 @@ public:
 
 
         nPoolMaxTransactions = 3;
-        strSporkKey = "0478c3e932fbe183b2f665de937866cb1cfc5ed4b0bf733b72286f265ffc03ff52dfd669fbb3f77d630e5393da65c721a9a891d2c4c6aa515dfd25ffe545582357";
+        strSporkKey = "0454607061c9903202b93cacad1c6642c6fe362656a9fc85ddf6de71a105a3335a4727abe2816e9b6e963115e348cf9aaeb10af97a09e7438961a88b605b56b998";
         strDarksendPoolDummyAddress = "AcmpqXViWUXNroqVNYRdKjKrFM6PNa1oTM";
         nStartMasternodePayments = 1525174171; //Tuesday, May 1, 2018 11:29:31 AM GMT
     }
@@ -192,7 +192,7 @@ public:
         pchMessageStart[1] = 0x64;
         pchMessageStart[2] = 0x54;
         pchMessageStart[3] = 0x65;
-        vAlertPubKey = ParseHex("0485286086a0871308bf36519edb18d95bbe9b098abe14ec9b684b5255028ec644bacdbddb98a522a6bcd7ab8e7d3582d7a5b9bf59c427f7eabce447b5ba6de25f");
+        vAlertPubKey = ParseHex("045a453dd70bafa0b4d17feeff9044a33aa791e57c157bdd6b37c53c618da81ea38d4b43d7a2accd43e5a188defd462cbd88d3434e679ce3172885ee140815201b");
         nDefaultPort = 22888;
         nEnforceBlockUpgradeMajority = 51;
         nRejectBlockOutdatedMajority = 75;
@@ -240,7 +240,7 @@ public:
 
 
         nPoolMaxTransactions = 2;
-        strSporkKey = "04363509d5c65f5a9ca7ceedad4887007ae85469d249a6f566b788504ee5e105bcf1bbc515f49a7aac3bceb8864bb2ba84bebd92c66ff9022309e2bfbd5f70d11f";
+        strSporkKey = "04b55c9e96874e45be892ba8a3e2b66503b1af484cc8156ab99ff78eb977a2aca25b4c417db57fc0f4f2935268fcca400e3824961f1bd8d0ad7034099b74fd4ccc";
         strDarksendPoolDummyAddress = "";
         nStartMasternodePayments = 1523967686;
     }

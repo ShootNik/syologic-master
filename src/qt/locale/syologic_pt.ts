@@ -3654,8 +3654,8 @@ https://www.transifex.com/syologic-crypto/syologic-wallet-translations/</transla
         <translation>Aviso: Por favor verifique que a data e a hora do computador está correcta! Se o relógio estiver errado o SyoLogic Core não vai funcionar correctamente.</translation>
     </message>
     <message>
-        <source>(68791 could be used only on mainnet)</source>
-        <translation>(68791 apenas pode ser usado para mainnet)</translation>
+        <source>(3255 could be used only on mainnet)</source>
+        <translation>(3255 apenas pode ser usado para mainnet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -4064,8 +4064,8 @@ https://www.transifex.com/syologic-crypto/syologic-wallet-translations/</transla
         <translation>masternodeprivkey inválida. Por favor reveja a documentação.</translation>
     </message>
     <message>
-        <source>(must be68791 for mainnet)</source>
-        <translation>(deve ser68791 para mainnet)</translation>
+        <source>(must be3255 for mainnet)</source>
+        <translation>(deve ser3255 para mainnet)</translation>
     </message>
     <message>
         <source>Can't find random Masternode.</source>

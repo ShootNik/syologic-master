@@ -2484,7 +2484,7 @@ https://www.transifex.com/syologic-crypto/syologic-wallet-translations/</transla
     </message>
     <message>
         <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Die Transaktion wurde abgelehnt! 
+        <translation>Die Transaktion wurde abgelehnt!
 Dies kann passieren, wenn einige SYO aus ihrer Wallet bereits ausgegeben wurden. Beispielsweise weil Sie eine Kopie ihrer wallet.dat nutzten und die SYO dort ausgegeben haben. Diese Ausgaben sind in diesem Fall in der derzeit aktiven Wallet nicht vermerkt.</translation>
     </message>
     <message>
@@ -3757,8 +3757,8 @@ zum Beispiel: alertnotify=echo %%s | mail -s \"SYO Alert\" admin@foo.com</transl
         <translation>Erlaubte Gegenstellen können nicht wegen DoS ausgeschlossen werden und ihre Transaktionen werden immer weitergeleitet, sogar wenn sie schon im Memory-Pool sind. Dies ist z.B. für Gateways nützlich.</translation>
     </message>
     <message>
-        <source>(68791 could be used only on mainnet)</source>
-        <translation>(68791 kann nur im Standardnetz benutzt werden)</translation>
+        <source>(3255 could be used only on mainnet)</source>
+        <translation>(3255 kann nur im Standardnetz benutzt werden)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -4176,8 +4176,8 @@ SyoLogic Core wird heruntergefahren.</translation>
         <translation>Masternode-Geheimschlüssel (masternodeprivkey) ist ungültig. Siehe Dokumentation. </translation>
     </message>
     <message>
-        <source>(must be68791 for mainnet)</source>
-        <translation>(muss für Standardnetz68791 sein)</translation>
+        <source>(must be3255 for mainnet)</source>
+        <translation>(muss für Standardnetz3255 sein)</translation>
     </message>
     <message>
         <source>Can't find random Masternode.</source>
