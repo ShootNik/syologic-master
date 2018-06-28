@@ -138,8 +138,11 @@ public:
 
         // Here should be DNS seeds
         //vSeeds.clear();
-        //vSeeds.push_back(CDNSSeedData("185.181.10.112", "185.181.10.112"));
-        //vSeeds.push_back(CDNSSeedData("199.247.20.171", "199.247.20.171"));
+        vSeeds.push_back(CDNSSeedData("syo.osnwt.site", "seed1.syo.osnwt.site"));
+        vSeeds.push_back(CDNSSeedData("syo.osnwt.site", "seed2.syo.osnwt.site"));
+        vSeeds.push_back(CDNSSeedData("syo.osnwt.site", "seed3.syo.osnwt.site"));
+        vSeeds.push_back(CDNSSeedData("syo.osnwt.site", "seed4.syo.osnwt.site"));
+        vSeeds.push_back(CDNSSeedData("syo.osnwt.site", "seed5.syo.osnwt.site"));
 
         // Here will be fixed seeds from chainparamsseeds.h
         //vFixedSeeds.clear();
